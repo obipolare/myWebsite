@@ -1,0 +1,106 @@
+:root {
+  --web-hoverColor: #059669;
+  --web-borderColor: #34d399;
+
+  --youtube-hoverColor: #ef4444;
+  --youtube-borderColor: #ef4444;
+
+  --twitter-hoverColor: #3b82f6;
+  --twitter-borderColor: #60a5fa;
+
+  --insta-hoverColor: #ec4899;
+  --insta-borderColor: #f472b6;
+
+  --twitch-hoverColor: #7c3aed;
+  --twitch-borderColor: #a78bfa;
+
+  --telegram-hoverColor: #2563eb;
+  --telegram-borderColor: #2563eb;
+
+  --github-hoverColor: #374151;
+  --github-borderColor: #9ca3af;
+}
+
+.main-figure {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8rem;
+}
+.main-figure__img {
+  width: 9.6rem;
+  border-radius: 100%;
+}
+.main-username {
+  margin: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main-menu__link--web {
+  flex: 1;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  font-size: 1.8rem;
+  transition: 0.2s;
+  border: 1px solid var(--web-borderColor);
+}
+.main-menu__link--web:hover {
+  background-color: var(--web-hoverColor);
+}
+
+.main-menu__link--youtube {
+  border: 1px solid var(--youtube-borderColor);
+}
+.main-menu__link--youtube:hover {
+  background-color: var(--youtube-hoverColor);
+}
+
+.main-menu__link--twitter {
+  border: 1px solid var(--twitter-borderColor);
+}
+.main-menu__link--twitter:hover {
+  background-color: var(--twitter-hoverColor);
+}
+
+.main-menu__link--insta {
+  border: 1px solid var(--insta-borderColor);
+}
+.main-menu__link--insta:hover {
+  background-color: var(--insta-hoverColor);
+}
+
+.main-menu__link--twitch {
+  border: 1px solid var(--twitch-borderColor);
+}
+.main-menu__link--twitch:hover {
+  background-color: var(--twitch-hoverColor);
+}
+
+.main-menu__link--telegram {
+  border: 1px solid var(--telegram-borderColor);
+}
+.main-menu__link--telegram:hover {
+  background-color: var(--telegram-hoverColor);
+}
+.main-menu__link--github {
+  border: 1px solid var(--github-borderColor);
+}
+.main-menu__link--github:hover {
+  background-color: var(--github-hoverColor);
+}
+/* @media (max-width: 1024px) {
+  lg 
+  .main-section {
+    width: 80%;
+  }
+} */
+/* @media (max-width: 460px) {
+  lg 
+  .main-section {
+    width: 100%;
+  }
+  .main-menu {
+    column-gap: 0.8rem;
+  }
+} */
